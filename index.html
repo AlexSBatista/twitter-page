@@ -1,33 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Twitter</title>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter</title>
 
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header id="main-header">
-    <div class="content">
-      <nav>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header id="main-header">
+      <div class="content">
+        <nav>
+          <ul>
+            <li><img src="/images/home.svg" alt="Home">
+              Home
+            </li>
+            <li><img src="/images/notification.svg" alt="Home">
+              Notifications
+            </li>
+            <li><img src="/images/message.svg" alt="Messages">
+              Messages
+            </li>
+          </ul>
+        </nav>
+        <img src="/images/logo.svg" alt="Logo Twitter">
+        <div class="side">
+          <input type="text" placeholder="Search on Tiwitter">
+          <img src="/images/avatar.png" alt="">
+          <button>Tweet</button>
+        </div>
+      </div>
+    </header>
+
+    <div class="banner">
+      <h1>Twitter</h1>
+    </div>
+
+    <div class="bar">
+      <div class="content">
         <ul>
-        <li><img src="/images/home.svg" alt="Home"> Home </li>
-        <li><img src="/images/notification.svg" alt="Home"> Notifications </li>
-        <li><img src="/images/message.svg" alt="Messages"> Messages </li>
+          <li class="active">
+            <span>Tweets</span>
+            <strong>1234</strong>
+          </li>
+          <li>
+            <span>Followings</span>
+            <strong>645</strong>
+          </li>
+          <li>
+            <span>Followers</span>
+            <strong>80</strong>
+          </li>
+          <li>
+            <span>Favorites</span>
+            <strong>92</strong>
+          </li>
+          <li>
+            <span>Lists</span>
+            <strong>8</strong>
+          </li>
+          <li>
+            <span>Moments</span>
+            <strong>0</strong>
+          </li>
         </ul>
-      </nav>
-      <img src="/images/logo.svg" alt="Logo Twitter">
-      <div class="side">
-        <input type="text" placeholder="Search on Tiwitter">
-        <img src="/images/avatar.png" alt="">
-        <button>Tweet</button>
+
+        <div class="actions">
+          <button>Follow</button>
+          <img src="/images/more.svg" alt="More">
+        </div>
       </div>
     </div>
-  </header>
 
-  <div class="banner">
-    <h1>Twitter</h1>
-  </div>
-</body>
+  </body>
 </html>
